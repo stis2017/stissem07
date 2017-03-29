@@ -49,7 +49,8 @@ public class Ej8 {
         if(!num.equals("")){
             for(int i=0;i<num.length();i++){
                 if(!Character.isDigit(num.charAt(i))){
-                    bandera=false;
+                    if(num.charAt(i)!='-')
+                        bandera=false;
                 }
             }
         }
