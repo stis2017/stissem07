@@ -21,6 +21,8 @@ public class Stissem07 {
         ej2.iniciar();
         Ej8 ej8= new Ej8();
         ej8.iniciar();
+        Ej7 ej7= new Ej7();
+        ej7.iniciar();
     }
     
 }
